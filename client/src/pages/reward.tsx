@@ -42,7 +42,7 @@ export default function Reward() {
             </Button>
             
             <Button
-              onClick={() => window.open("https://discord.gg/YOUR_DISCORD_SERVER", "_blank")}
+              onClick={() => window.open("https://discord.gg/dgVjDYEHqU", "_blank")}
               className="w-full"
             >
               <MessageSquare className="mr-2 h-4 w-4" />
@@ -51,7 +51,7 @@ export default function Reward() {
           </div>
 
           <p className="text-center text-sm text-muted-foreground">
-            Contact <span className="font-medium">itx_me_hammad</span> on Discord to receive your reward
+            Contact <span className="font-medium">its_me_hammad</span> on Discord to receive your reward
           </p>
         </CardContent>
       </Card>
