@@ -34,8 +34,8 @@ export default function Home() {
               <Button className="w-full">Start Puzzling</Button>
             </Link>
           ) : (
-            <Link href="/auth">
-              <Button className="w-full">Sign In to Start</Button>
+            <Link href="/puzzle">
+              <Button className="w-full">Start</Button>
             </Link>
           )}
         </CardContent>
