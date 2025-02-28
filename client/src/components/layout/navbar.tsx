@@ -34,14 +34,14 @@ export function Navbar() {
               <span className="text-sm text-muted-foreground">
                 {auth.currentUser.displayName}
               </span>
-              <Button variant="ghost" onClick={handleSignOut}>
+              /*<Button variant="ghost" onClick={handleSignOut}>
                 Sign Out
-              </Button>
+              </Button>*/
             </>
           ) : (
-            <Link href="/auth">
+            /*<Link href="/auth">
               <Button>Sign In</Button>
-            </Link>
+            </Link>*/
           )}
         </div>
       </div>
